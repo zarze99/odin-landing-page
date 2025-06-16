@@ -5,6 +5,7 @@
 body{
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 .header,
@@ -26,19 +27,35 @@ body{
 
 .header{
     font-size: 24px;
+    display: flex;
+    align-items: center;
+    padding: 0 300px;
+    flex-wrap: wrap;
 }
 
-.secondary
 .links{
     font-size: 18px;
-    color: #e5e7eb
+    color: #e5e7eb;
+    list-style-type: none;
+    display: flex;
+    margin-left: auto;
+    gap: 60px;
+    padding: 0;
+}
+
+.secondary,
+.text{
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 .quote{
     background-color: #e5e7eb;
     font-size: 36px;
-    font-style: light italic;
     color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 300px;
 }
 
 .infoheader{
@@ -47,11 +64,110 @@ body{
     font-weight: 900;
 }
 
-.signup,
 .bluebox{
-    background-color: #3882f6
+    background-color: #3882f6;
 }
 
 .signup{
+    background-color: #3882f6;
     color: #F9FAF8;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 8px 40px;
+    border-radius: 10px;
+    border: 0;
+}
+
+.logo{
+    margin-right: auto;
+}
+
+.top{
+    display: flex;
+    justify-content: center;
+    padding: 150px 300px;
+    flex-wrap: wrap;
+}
+
+.wide{
+    max-width: 600px;
+    max-height: auto;
+    margin-left: auto;
+}
+
+.herotext{
+    min-width: 400px;
+    flex: 1;
+}
+
+.randominfo{
+    padding: 60px 0;
+}
+.randominfo,
+.picture{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    flex: 1;
+}
+
+.images{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+.square{
+    max-width: 400px;
+    min-width: none;
+    max-height: auto;
+    flex-wrap: wrap;
+    border: 4px solid #3882f6;
+    border-radius: 10px;
+}
+
+.quotewords{
+    font-style: italic;
+}
+
+.citation{
+    align-self: flex-end;
+    padding: 0 30px;
+}
+
+.calltoaction{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 300px;
+    flex-basis: 500px;
+}
+
+.bluebox{
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    align-items: center;
+    padding: 10px 300px;
+    border-radius: 10px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.signup.border{
+    border: 2px solid white;
 }
