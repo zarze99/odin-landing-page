@@ -111,7 +111,7 @@ body{
 }
 
 .square{
-    max-width: 400px;
+    max-width: 350px;
     min-width: none;
     max-height: auto;
     flex-wrap: wrap;
