@@ -1,0 +1,57 @@
+*{
+    font-family: Roboto, Tahoma, "Times New Roman", sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.header,
+.top,
+.footer{
+    background-color:  #1F2937;
+}
+
+.main,
+.logo,
+.footer{
+    color: #F9FAF8
+}
+
+.main{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.header{
+    font-size: 24px;
+}
+
+.secondary
+.links{
+    font-size: 18px;
+    color: #e5e7eb
+}
+
+.quote{
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: light italic;
+    color: #1f2937;
+}
+
+.infoheader{
+    font-size: 36px;
+    color:#1F2937;
+    font-weight: 900;
+}
+
+.signup,
+.bluebox{
+    background-color: #3882f6
+}
+
+.signup{
+    color: #F9FAF8;
+}
